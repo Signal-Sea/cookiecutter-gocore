@@ -4,6 +4,7 @@
   "description": "Behold My Awesome Goland Project!",
   "author_name": "Michael Assanama",
   "github_username": "michaelassa01",
+  "domain_name": "example.com",
   "email": "{{ cookiecutter.author_name.lower() | trim() |replace(' ', '-') }}@{{ cookiecutter.domain_name.lower() | trim() }}",
   "go_version": "1.25.4",
   "postgresql_version": ["17", "16", "15", "14"],
